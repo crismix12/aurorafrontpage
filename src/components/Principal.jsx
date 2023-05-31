@@ -1,7 +1,10 @@
 import React from 'react';
 import { CardGroup, Carousel, Figure } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import BANNER from '../assets/img/BanerAurora.jpg';
+import TANKPROP from '../assets/img/tanksprop.jpg';
+import TANKPROP2 from '../assets/img/tanksprop2.jpg';
 const Principal = () => {
     return (
         // <CardGroup className='principal'>
@@ -36,21 +39,21 @@ const Principal = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 imgFix"
-                            src="..\src\assets\img\BanerAurora.jpg"
+                            src={BANNER}
                             alt="First slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100 imgFix"
-                            src="..\src\assets\img\tanksprop.jpg"
+                            src={TANKPROP}
                             alt="Second slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100 imgFix"
-                            src="..\src\assets\img\tanksprop2.jpg"
+                            src={TANKPROP2}
                             alt="third slide"
                         />
                     </Carousel.Item>
