@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardGroup, Figure } from 'react-bootstrap';
-
+import UNNAMED from '../assets/img/unnamed.jpg';
 const About = () => {
     return (
 
@@ -29,7 +29,7 @@ const About = () => {
                         src="..\src\assets\img\unnamed.jpg"
                     />
                 </Figure> */}
-                <Card.Img variant="bottom" height="100%" src="..\src\assets\img\unnamed.jpg" />
+                <Card.Img variant="bottom" height="100%" src={UNNAMED} />
             </Card>
         </CardGroup>
 

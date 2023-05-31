@@ -1,6 +1,8 @@
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
-
+import TANKFRONT from '../assets/img/tankfront.jpg';
+import BEBEDERO from '../assets/img/bebedero.png';
+import BEBEDEROBACK from '../assets/img/bebederoback.png';
 const Description = () => {
     return (
         <CardGroup>
@@ -11,7 +13,7 @@ const Description = () => {
                         El Tanque TK- Aurora está fabricado con un copolímero de Polietileno Lineal de Media Densidad, con estabilizador U.V.8., que presenta excelentes propiedades mecánicas, resistencia térmica, cero burbuja interna y una estructura molecular perfectamente homogénea.
                     </Card.Text>
                 </Card.Body>
-                <Card.Img variant="top" src="..\src\assets\img\tankfront.jpg" />
+                <Card.Img variant="top" src={TANKFRONT} />
             </Card>
             <Card>
                 <Card.Body>
@@ -22,8 +24,8 @@ const Description = () => {
                         <span style={{ fontWeight: "bold" }}>GARANTIA:</span> 10 años.
                     </Card.Text>
                 </Card.Body>
-                <Card.Img variant="top" src="..\src\assets\img\bebedero.png" />
-                <Card.Img variant="top" className='mt-5' src="..\src\assets\img\bebederoback.png" />
+                <Card.Img variant="top" src={BEBEDERO} />
+                <Card.Img variant="top" className='mt-5' src={BEBEDEROBACK} />
             </Card>
         </CardGroup>
     );
