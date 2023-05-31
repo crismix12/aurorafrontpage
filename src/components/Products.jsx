@@ -1,13 +1,14 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-
+import TANKS from '../assets/img/tanks.jpg';
+import BEBEDERO from '../assets/img/bebedero.png';
 const Products = () => {
     return (
         <Carousel id='products' slide={false}>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="..\src\assets\img\tanks.jpg"
+                    src={TANKS}
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -17,7 +18,7 @@ const Products = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="..\src\assets\img\bebedero.png"
+                    src={BEBEDERO}
                     alt="Second slide"
                 />
 
