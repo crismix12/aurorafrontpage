@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Container, Offcanvas } from 'react-bootstrap'
-
+import LOGO from '../assets/img/itechlogo.jpg';
 const MyNavBar = () => {
     const [show, setShow] = useState(false);
 
@@ -23,7 +23,7 @@ const MyNavBar = () => {
                     {/* <Navbar.Brand to="/">Ecommerce</Navbar.Brand> */}
                     <Navbar.Brand href="#home">
                         <img
-                            src="..\src\assets\img\itechlogo.jpg"
+                            src={LOGO}
                             width="120"
                             height="50"
                             className="d-inline-block align-top"

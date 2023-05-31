@@ -33,7 +33,7 @@ const Principal = () => {
         <Card id='home'>
             <Card.Body >
                 <Card.Text className='h1'>
-                    Termoplastica ITech Aurora
+                    Termoplastica Itech Aurora
                 </Card.Text>
                 <Carousel slide={false}>
                     <Carousel.Item>
